@@ -54,4 +54,12 @@ poker_winning_days
 
 selection_vector_roulette <- roulette_vector > 0
 roulette_winning_days <- roulette_vector[selection_vector_roulette]
+roulette_winning_days
 
+
+#-----------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+selection_vector <- poker_vector < 0
+selection_vector
+poker_vector[selection_vector]
